@@ -1,0 +1,367 @@
+.main-para {
+  font-size: 50px;
+  background: rgb(240, 210, 249);
+  background: linear-gradient(90deg, rgba(240, 210, 249, 1) 27%, rgb(154, 201, 255) 54%, rgba(213, 220, 255, 1) 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  margin-left: 43px;
+  padding-top: 180px;
+  font-weight: bold;
+}
+.about-me{
+  height: 100vh;
+}
+.about-me p{
+  margin-top: 8px;
+  color:rgb(240, 210, 249) ;
+  margin-left: 43px;
+  font-weight: 100;
+  font-size: 17px;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 1025px) {
+  .main-para {
+    font-size: 46px;
+    margin-top: 277px;
+  }
+}
+
+@media (max-width: 875px) {
+  .main-para {
+    font-size: 35px;
+    margin-top: 325px;
+  }
+
+  .li-comp {
+    display: none;
+  }
+
+  .navbar {
+    margin-left: 283px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-para {
+    font-size: 32px;
+    margin-top: 25px;
+  }
+
+  .onm::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .onm {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+}
+
+
+.main-btn {
+  background-color: rgb(240, 210, 249);
+  background: linear-gradient(90deg, rgba(240, 210, 249, 1) 27%, rgb(154, 201, 255) 54%, rgba(213, 220, 255, 1) 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  border: 1px solid rgb(240, 210, 249);
+  width: 200px;
+  height: 35px;
+  margin-left: 43px;
+  border-radius: 30px;
+  font-weight: 500;
+  margin-top: 27px;
+  transition: all 0.5s ease;
+}
+
+.main-btn:hover {
+  color: black;
+  /* Text color on hover */
+  cursor: pointer;
+  background: rgb(240, 210, 249);
+  background: linear-gradient(90deg, rgba(240, 210, 249, 1) 27%, rgb(154, 201, 255) 54%, rgba(213, 220, 255, 1) 100%);
+  border: none;
+  font-weight: 400;
+}
+
+
+.onm::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 30px;
+}
+
+.onm::-webkit-scrollbar-thumb {
+  background-color: #444444;
+  border-radius: 4px;
+}
+
+.onm::-webkit-scrollbar-thumb:hover {
+  background-color: #1d1d1d;
+}
+
+.onm::-webkit-scrollbar-track {
+  background-color: #1a1a1a;
+  border-radius: 30px;
+}
+
+
+/* education css */
+
+.education {
+  margin-top: 35px;
+  margin-left: 43px;
+  height: 100vh;
+  padding-top: 51px;
+}
+.jjk{
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 100;
+}
+.kkj{
+  width: 130px;
+}
+.bar{
+  display: flex;
+  align-items: center;
+}
+.kkj p{
+  font-size: 16px;
+  color:rgba(240, 210, 249, 0.548) ;
+  margin-right: 26px;
+  margin-top: 5px;
+  font-weight: 200;
+}
+
+.prog-bar {
+  width: 100%; 
+  height: 7px; 
+  background-color: #3c3b39;
+  border-radius: 5px; 
+  overflow: hidden; 
+}
+.percentage{
+  font-size: 15px;
+  color:rgba(240, 210, 249, 1) ;
+  margin-left: 5px;
+}
+.main-progbar {
+  height: 100%; 
+  background-color: rgba(240, 210, 249, 1);
+  border-radius: 5px 0 0 5px; 
+  transition: width 0.5s ease-in-out; 
+}
+.button-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgb(240, 210, 249);
+  background: linear-gradient(90deg, rgba(240, 210, 249, 1) 27%, rgb(154, 201, 255) 54%, rgba(213, 220, 255, 1) 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}.button-container h1{
+  background: linear-gradient(90deg, rgba(240, 210, 249, 1) 27%, rgb(154, 201, 255) 54%, rgba(213, 220, 255, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
+  font-size: 32px;
+  font-weight: 200;
+  width: 200px;
+}
+
+button {
+
+
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.slider-container {
+  width: 828px;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+
+.slider {
+   display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 200%;
+}
+
+
+.slide {
+  width: 829px;
+  height: 500px;
+  font-size: 18px;
+}
+
+.devimg{
+  width: 100px; /* Set the desired width */
+  height: 100px; /* Set the desired height */
+
+}
+/* .prog-bar{
+  width: 90px;
+  background-color: #007BFF;
+  height: 5px;
+} */
+ /* page1-main.css */
+
+
+#div2 {
+  background-color: #28A745;
+  /* Green for div 2 */
+}
+
+/* project css */
+.project {
+  background-color: #007BFF;
+  height: 100vh;
+}
+
+
+/* reviews css */
+.review {
+  height: 100vh;
+}
+.r-main{
+  padding-top: 70px;
+  margin-left: 43px;
+}
+.r-main h1{
+  color: rgb(240, 210, 249);
+  background: linear-gradient(90deg, rgba(240, 210, 249, 1) 27%, rgb(154, 201, 255) 54%, rgba(213, 220, 255, 1) 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 32px;
+  padding-bottom: 30px;
+  width: 350px;
+} 
+.box{
+ 
+  width: 420px;
+  height: 180px;
+  margin-bottom: 30px;
+  padding: 30px;
+  text-align: center;
+ 
+}
+
+.sides{
+  display: flex;
+  width: 90%;
+ 
+  height: 65vh;
+  justify-content: space-between;
+
+}
+.sides h2{
+  color: rgb(240, 210, 249);
+  background: linear-gradient(90deg, rgba(240, 210, 249, 1) 27%, rgb(154, 201, 255) 54%, rgba(213, 220, 255, 1) 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 22px;
+ margin-bottom: 10px;
+ text-transform: capitalize;
+}
+.sides p{
+  color: rgb(240, 210, 249);
+  padding: 3px;
+  font-size: 17px;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact css */
+.contact{
+  height: 100vh;
+  padding-top: 72px;
+  color: #fff;
+}
+.contact p{
+  color: rgb(240, 210, 249);
+  padding-left: 40px;
+  background: linear-gradient(90deg, rgba(240, 210, 249, 1) 27%, rgb(154, 201, 255) 54%, rgba(213, 220, 255, 1) 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+.forms{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,textarea{
+  background: transparent;
+  border: 2px solid gray;
+  border-radius: 9px;
+  margin-bottom: 20px;
+  padding: 8px 9px;
+  width: 40vw;
+}
+form input,textarea:focus{
+  outline:rgb(240, 210, 249) ;
+}
+textarea{
+  height: 40vh;
+  padding: 9px;
+}
+
+.cont-btn{
+  margin-top: 43px;
+  background: rgb(240, 210, 249);
+    background: linear-gradient(90deg, rgba(240, 210, 249, 1) 27%, rgba(255, 209, 244, 1) 54%, rgba(213, 220, 255, 1) 100%);
+    border: none;
+    width: 230px;
+    height: 35px;
+    border-radius: 30px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: rgb(41, 41, 41);
+}
+.cont-btn:hover{
+  cursor: pointer;
+    background-color: rgb(240, 210, 249);
+    background: linear-gradient(90deg, rgba(240, 210, 249, 1) 27%, rgb(154, 201, 255) 54%, rgba(213, 220, 255, 1) 100%);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    border:1px solid rgb(240, 210, 249) ;
+    transition: all 0.5s ease;
+}
+

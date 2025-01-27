@@ -1,0 +1,29 @@
+
+body{
+   background-image: url('./components/bg-2.png');
+   backdrop-filter: blur(12px) saturate(180%);
+   -webkit-backdrop-filter: blur(12px) saturate(180%);
+   background-attachment: fixed;
+   /* background-color: rgba(17, 25, 40, 0.75); */
+   /* overflow-x: hidden; */
+  
+}
+.page-1{
+    display: flex;
+    overflow: visible;
+}
+@media (max-width: 600px) {
+    .page-1 {
+      display: block;
+    }
+
+    body{
+        overflow-y: scroll;
+      
+        backdrop-filter: blur(12px) saturate(180%);
+        -webkit-backdrop-filter: blur(12px) saturate(180%);
+    }
+  }
+.side-cont{ 
+    width: 100%;
+}
