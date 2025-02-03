@@ -9,7 +9,9 @@ function App() {
   return (
     <div >
       <div className="page-1">
+        <div className="hidden-card">
     <Card/>
+    </div>
     <div className="side-cont">
    <Pg1main/>
    

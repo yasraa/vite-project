@@ -9,7 +9,7 @@ const about = () => {
       </h2>
       <p>I create responsive web applications and user-centric designs that prioritize performance and usability. <br />
          Combining clean code with creative design, I deliver intuitive, engaging, and scalable solutions. <br />
-         Let’s build innovative,  functional, and visually stunning digital products together.</p>
+         </p>
       <button className='main-btn'>Download Resume</button>
       </div>
   </div>

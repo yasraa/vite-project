@@ -7,7 +7,7 @@ import Projects from './projects'
 import About from './about'
 import Reviews from './reviews'
 import Contact from "./contact";
-
+import Card from "./card.jsx";
 
 const pg1main = () => {
   
@@ -20,7 +20,11 @@ const pg1main = () => {
         overflowY: "auto",
         position: "relative",
       }}>
+      
       <Navbar/>
+      <div className="hiddencard">
+      <Card/>
+      </div>
     <About/>
  
     <Education/>

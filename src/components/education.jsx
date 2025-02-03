@@ -50,7 +50,7 @@ function Education() {
           }}
         >
           <div className="slide">
-            <div className="w-full grid grid-cols-4 gap-20 text-center p-10">
+            <div className="ainer">
             {imageData.map((image) => (
               <div key={image.id} >
                 <div className="kkj">

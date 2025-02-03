@@ -1,36 +1,23 @@
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 .sidesticky{
     position: sticky; /* Makes the div sticky */
-  top: 0;           /* Keeps it at the top as you scroll */
-  height: 100vh;    /* Full viewport height */
- padding-top: 4vh;
-  z-index: 10;   
+    top: 0;           /* Keeps it at the top as you scroll */
+    height: 100vh;    /* Full viewport height */
+    padding-top: 4vh;
+    z-index: 10;   
   }
-/* position:fixed;
-    top: 0;
-    left: 0;     */
+
 
 .cardm {
     height: 92vh;
     color: rgb(248, 245, 250);
-  
     margin-bottom: 4vh;
     margin-left: 30px;
     background-color: #3c3b39;
     width: 280px;
     border-radius: 20px;
-    /* position: sticky; 
-    top: 0;           
-    height: 100vh;   
-    background-color:
-    z-index: 10;    */
 }
-
-
-
 
 
 @media (max-width: 768px) {
@@ -40,7 +27,22 @@
     }
 }
 
-
+@media (max-width:500px){
+    .sidesticky{
+        position: relative;
+        padding-top: 0px;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardm{
+        margin-left: 0px;
+        height: 64vh;
+        margin-bottom: 0px;
+    }
+}
 
 
 
